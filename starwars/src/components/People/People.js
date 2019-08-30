@@ -5,7 +5,8 @@ function People(props) {
     return (
         <div>
             <h2>{props.person}</h2>
-            <p>{props.height}</p>
+            <p>{props.height}cm tall</p>
+            <p>Born {props.birthyear}</p>
         </div>
     );
 }

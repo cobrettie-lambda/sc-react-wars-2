@@ -32,7 +32,7 @@ const App = () => {
       {
         people.map((person, index) => {
           return (
-            <People key={index} person={person.name} height={person.height} />
+            <People key={index} person={person.name} height={person.height} birthyear={person.birth_year} />
           );
         })
       }
