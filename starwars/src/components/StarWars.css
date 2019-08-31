@@ -1,0 +1,16 @@
+.person-header {
+    font-weight: 600;
+    letter-spacing: .04rem;
+}
+
+.person-birth {
+    font-weight: 550;
+}
+
+.person-height {
+    font-weight: 550;
+}
+
+.person-mass {
+    font-weight: 550;
+}
