@@ -1,3 +1,7 @@
+.container Card .card {
+    background-color: #fafafa;
+}
+
 .person-header {
     font-weight: 600;
     letter-spacing: .04rem;
