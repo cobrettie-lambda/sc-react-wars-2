@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import People from './components/People/People';
 import 'semantic-ui-css/semantic.min.css';
+import './index.css';
 import './App.css';
 
 const App = () => {
@@ -28,8 +29,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      {/* <People people={people} /> */}
-
+      <div className="container">
       {
         people.map((person, index) => {
           return (
@@ -37,7 +37,7 @@ const App = () => {
           );
         })
       }
-
+      </div>
     </div>
   );
 }
