@@ -1,20 +1,28 @@
-.container Card .card {
+.card1 {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 600px;
     background-color: #fafafa;
 }
 
 .person-header {
     font-weight: 600;
     letter-spacing: .04rem;
+    color: #373737;
 }
 
 .person-birth {
     font-weight: 550;
+    color: #373737;
 }
 
 .person-height {
     font-weight: 550;
+    color: #373737;
 }
 
 .person-mass {
     font-weight: 550;
+    color: #373737;
 }

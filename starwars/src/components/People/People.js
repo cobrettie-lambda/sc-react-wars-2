@@ -6,7 +6,7 @@ function People(props) {
     console.log(props);
     return (
         <div className="container">
-            <Card className="card">
+            <Card className="card1">
                 <h2 className="person-header">
                     {props.person}
                 </h2>
