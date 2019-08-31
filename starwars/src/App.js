@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import People from './components/People/People';
-import 'semantic-ui-css/semantic.min.css';
-import './index.css';
 import './App.css';
 
 const App = () => {
@@ -33,7 +31,13 @@ const App = () => {
       {
         people.map((person, index) => {
           return (
-            <People key={index} person={person.name} height={person.height} birthyear={person.birth_year} />
+            <People 
+              key={index} 
+              person={person.name} 
+              height={person.height} 
+              mass={person.mass}
+              birthyear={person.birth_year} 
+            />
           );
         })
       }

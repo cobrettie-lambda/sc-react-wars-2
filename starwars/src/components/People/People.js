@@ -5,10 +5,12 @@ function People(props) {
     console.log(props);
     return (
         <div className="container">
-            <div className="ui card">
-                <h2 className="ui header">{props.person}</h2>
-                <p>{props.height}cm tall</p>
+            <div className="">
+                <h2 className="">                {props.person} 
+                </h2>
                 <p>Born {props.birthyear}</p>
+                <p>{props.height}cm</p>
+                <p>{props.mass}kg</p>
             </div>
         </div>
     );
